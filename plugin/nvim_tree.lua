@@ -1,0 +1,23 @@
+--vim.g.nvim_tree_root_folder_modifier = ':t'
+
+--require'nvim-tree'.setup{
+  --disable_netrw = false,
+  --hijack_cursor = true,
+  --update_cwd = true,
+  --open_on_setup = false,
+  --git = {
+    --ignore = true,
+  --},
+  --view = {
+    --width = 60,
+    --height = 30,
+    --hide_root_folder = false,
+    --side = 'right',
+    --auto_resize = false,
+    --number = true,
+    --relativenumber = false,
+    --signcolumn = "yes"
+  --},
+--}
+
+--vim.api.nvim_set_keymap('n', '<C-n>', '<Cmd>NvimTreeToggle<CR>', { noremap = true, silent = true })
